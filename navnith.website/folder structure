@@ -1,0 +1,15 @@
+section {
+    opacity: 0;
+    transform: translateY(25px);
+    transition: 0.7s;
+}
+
+section.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.home {
+    opacity: 1;
+    transform: none;
+}

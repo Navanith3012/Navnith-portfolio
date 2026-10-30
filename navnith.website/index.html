@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navanitha Krishnan | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+    <link rel="stylesheet" href="folder structure">
+</head>
+<body>
+
+    <header>
+        <a href="#" class="logo">NK<span>.</span></a>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#education">Education</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+         <button id="editBtn">EDIT PROFILE</button>
+    </header>
+
+    <!-- HOME -->
+
+    <section class="home" id="home">
+
+        <div class="home-content">
+            <p class="welcome">WELCOME TO MY PORTFOLIO</p>
+
+            <h1>I'm <span>Navanitha</span></h1>
+            <h2>Krishnan</h2>
+
+            <h3>Computer Science Engineer</h3>
+
+            <p>
+                Passionate about technology, web development,
+                software testing and database management.
+                Always ready to learn and explore new technologies.
+            </p>
+
+            <a href="#about" class="btn">Explore More</a>
+        </div>
+
+        <div class="profile">
+            <div class="circle">
+                NK
+            </div>
+            <h3>NAVANITHA KRISHNAN</h3>
+            <p>IT PROFESSIONAL</p>
+        </div>
+
+    </section>
+
+    <!-- ABOUT -->
+
+    <section id="about">
+
+        <h2 class="heading">About <span>Me</span></h2>
+
+        <div class="about-box">
+            <p>
+                I am a Computer Science Engineering graduate
+                from Sri Sairam Engineering College.
+
+                I have an interest in software development,
+                manual testing, SQL and web technologies.
+
+                I enjoy learning new technologies and
+                building creative projects.
+            </p>
+        </div>
+
+    </section>
+
+    <!-- SKILLS -->
+
+    <section id="skills">
+
+        <h2 class="heading">My <span>Skills</span></h2>
+
+        <div class="skills-container">
+
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">React JS</div>
+            <div class="skill">SQL</div>
+            <div class="skill">Core Java</div>
+            <div class="skill">Manual Testing</div>
+            <div class="skill">Python Basics</div>
+
+        </div>
+
+    </section>
+
+    <!-- EDUCATION -->
+
+    <section id="education">
+
+        <h2 class="heading">My <span>Education</span></h2>
+
+        <div class="education-container">
+
+            <div class="education-box">
+                <h3>B.E. Computer Science Engineering</h3>
+                <p>Sri Sairam Engineering College</p>
+                <span>2025</span>
+                <p>CGPA: 7.0</p>
+            </div>
+
+            <div class="education-box">
+                <h3>Diploma - Electronics & Communication</h3>
+                <p>Sri Sairam Polytechnic College</p>
+                <span>2022</span>
+                <p>Percentage: 80%</p>
+            </div>
+
+            <div class="education-box">
+                <h3>Technical Learning</h3>
+                <p>QSpiders - Full Stack Development</p>
+                <span>SQL | Java | Testing | Web Technologies</span>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- PROJECTS -->
+
+    <section id="projects">
+
+        <h2 class="heading">My <span>Projects</span></h2>
+
+        <div class="projects-container">
+
+            <div class="project-box">
+                <h3>Personal Portfolio</h3>
+                <p>My own professional portfolio website using HTML and CSS.</p>
+            </div>
+
+            <div class="project-box">
+                <h3>Neon Shooting Game</h3>
+                <p>An interactive arcade shooting game using JavaScript.</p>
+            </div>
+
+            <div class="project-box">
+                <h3>Login Page</h3>
+                <p>A modern login interface with premium styling.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- CONTACT -->
+
+    <section id="contact">
+
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <div class="contact-box">
+
+            <p>Interested in connecting with me?</p>
+            <p>Email: Add your email address</p>
+            <p>Phone: Add your phone number</p>
+            <p>LinkedIn: Add your profile link</p>
+
+        </div>
+
+    </section>
+
+    <footer>
+        <p>© 2026 Navanitha Krishnan | All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <div class="editor" id="editor">
+    <h2>Edit My Profile</h2>
+
+    <input id="nameInput" placeholder="Your Name">
+    <textarea id="aboutInput" placeholder="About Me"></textarea>
+    <input id="skillsInput" placeholder="Skills (comma separated)">
+
+    <button onclick="saveProfile()">SAVE</button>
+    <button onclick="closeEditor()">CANCEL</button>
+</div>
+
+</body>
+</html>
